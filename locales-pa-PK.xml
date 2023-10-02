@@ -7,10 +7,10 @@
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
     <updated>2015-10-10T23:31:02+00:00</updated>
   </info>
-  <style-options punctuation-in-quote="true"/>
+  <style-options punctuation-in-quote="false"/>
   <date form="text">
     <date-part name="month" suffix=" "/>
-    <date-part name="day" suffix=", "/>
+    <date-part name="day" suffix=" "/>
     <date-part name="year"/>
   </date>
   <date form="numeric">
@@ -20,9 +20,9 @@
   </date>
   <terms>
     <term name="advance-online-publication">advance online publication</term>
-    <term name="album">album</term>
+    <term name="album">البم</term>
     <term name="audio-recording">audio recording</term>
-    <term name="film">film</term>
+    <term name="film">فلم</term>
     <term name="henceforth">henceforth</term>
     <term name="loc-cit">loc. cit.</term> <!-- like ibid., the abbreviated form is the regular form  -->
     <term name="no-place">no place</term>
@@ -44,11 +44,11 @@
     <term name="television-broadcast">television broadcast</term>
     <term name="television-series">television series</term>
     <term name="television-series-episode">television series episode</term>
-    <term name="video">video</term>
+    <term name="video">وڈیو</term>
     <term name="working-paper">working paper</term>
     <term name="accessed">accessed</term>
-    <term name="and">and</term>
-    <term name="and others">and others</term>
+    <term name="and">تے</term>
+    <term name="and others">تے ہور</term>
     <term name="anonymous">anonymous</term>
     <term name="anonymous" form="short">anon.</term>
     <term name="at">at</term>
@@ -58,8 +58,8 @@
     <term name="circa" form="short">c.</term>
     <term name="cited">cited</term>
     <term name="edition">
-      <single>edition</single>
-      <multiple>editions</multiple>
+      <single>چھپائی</single>
+      <multiple>چھپائیاں</multiple>
     </term>
     <term name="edition" form="short">ed.</term>
     <term name="et-al">et al.</term>
@@ -69,7 +69,7 @@
     <term name="in">in</term>
     <term name="in press">in press</term>
     <term name="internet">internet</term>
-    <term name="letter">letter</term>
+    <term name="letter">خط</term>
     <term name="no date">no date</term>
     <term name="no date" form="short">n.d.</term>
     <term name="online">online</term>
@@ -167,25 +167,21 @@
     <term name="semicolon">;</term>
 
     <!-- ORDINALS -->
-    <term name="ordinal">th</term>
-    <term name="ordinal-01">st</term>
-    <term name="ordinal-02">nd</term>
-    <term name="ordinal-03">rd</term>
-    <term name="ordinal-11">th</term>
-    <term name="ordinal-12">th</term>
-    <term name="ordinal-13">th</term>
+    <term name="ordinal">واں</term>
+    <term name="ordinal-01">لا</term>
+    <term name="ordinal-02">جا</term>
 
     <!-- LONG ORDINALS -->
-    <term name="long-ordinal-01">first</term>
-    <term name="long-ordinal-02">second</term>
-    <term name="long-ordinal-03">third</term>
-    <term name="long-ordinal-04">fourth</term>
-    <term name="long-ordinal-05">fifth</term>
-    <term name="long-ordinal-06">sixth</term>
-    <term name="long-ordinal-07">seventh</term>
-    <term name="long-ordinal-08">eighth</term>
-    <term name="long-ordinal-09">ninth</term>
-    <term name="long-ordinal-10">tenth</term>
+    <term name="long-ordinal-01">پہلا</term>
+    <term name="long-ordinal-02">دوجا</term>
+    <term name="long-ordinal-03">تیجا</term>
+    <term name="long-ordinal-04">چوواں</term>
+    <term name="long-ordinal-05">پنجواں</term>
+    <term name="long-ordinal-06">چھیواں</term>
+    <term name="long-ordinal-07">ستواں</term>
+    <term name="long-ordinal-08">اٹھواں</term>
+    <term name="long-ordinal-09">نوواں</term>
+    <term name="long-ordinal-10">دسواں</term>
 
     <!-- LONG LOCATOR FORMS -->
     <term name="act">			 
@@ -233,8 +229,8 @@
       <multiple>titles</multiple>						 
     </term>
     <term name="book">
-      <single>book</single>
-      <multiple>books</multiple>
+      <single>کتاب</single>
+      <multiple>کتاباں</multiple>
     </term>
     <term name="chapter">
       <single>chapter</single>
@@ -253,8 +249,8 @@
       <multiple>folios</multiple>
     </term>
     <term name="issue">
-      <single>number</single>
-      <multiple>numbers</multiple>
+      <single>نمبر</single>
+      <multiple>نمبر</multiple>
     </term>
     <term name="line">
       <single>line</single>
@@ -269,20 +265,20 @@
       <multiple>opera</multiple>
     </term>
     <term name="page">
-      <single>page</single>
-      <multiple>pages</multiple>
+      <single>صفحہ</single>
+      <multiple>صفحے</multiple>
     </term>
     <term name="number-of-pages">
-      <single>page</single>
-      <multiple>pages</multiple>
+      <single>صفحہ</single>
+      <multiple>صفحے</multiple>
     </term>
     <term name="paragraph">
       <single>paragraph</single>
       <multiple>paragraphs</multiple>
     </term>
     <term name="part">
-      <single>part</single>
-      <multiple>parts</multiple>
+      <single>حصہ</single>
+      <multiple>حصے</multiple>
     </term>
     <term name="section">
       <single>section</single>
@@ -297,7 +293,7 @@
       <multiple>verses</multiple>
     </term>
     <term name="volume">
-      <single>volume</single>
+      <single>جلد</single>
       <multiple>volumes</multiple>
     </term>
 
